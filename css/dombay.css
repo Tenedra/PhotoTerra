@@ -1,0 +1,83 @@
+/*--description--*/
+
+.container{
+    margin: 100px auto;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: space-around;
+}
+
+p{
+    font-family: 'Helvetica';
+    margin: 20px 0;
+    line-height: 1.4em;
+}
+
+.photo-tour{
+    width: 70%;
+    margin: 0 50px;
+    padding: 40px 0;
+}
+
+.day-info{
+    margin: 40px auto;
+}
+
+.day-info h2{
+    font-size: 25px;
+    object-fit: cover;
+}
+
+.day-info-pic3{
+    display: flex;
+    justify-content: start;
+}
+
+.day-info img{
+    margin: 0 auto;
+    display: block;
+
+}
+
+/*--oter-tour--*/
+
+.other-tour{
+    margin-top: 70px;
+    padding-left: 30px;
+    width: 25%;
+    height: 400px;
+    border-left: 1px solid rgb(199, 199, 199);
+}
+
+.tour{
+    width: 100%;
+    
+}
+
+.tour-link{
+    margin: 20px 0;
+    padding: 5px;
+    max-width: 80%;
+    text-decoration: none;
+    color: #000;
+    vertical-align: top;
+    display: flex;
+    justify-content: start;
+    transition: all 0.3s ease;
+}
+
+.tour-link:hover{
+    transform: scale(1.1);
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.3) ;
+}
+
+.tour-link h4{
+    padding-left: 7px;
+    width: 100%;
+
+    border-left: none;
+}
+
+

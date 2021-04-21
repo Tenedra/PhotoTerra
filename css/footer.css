@@ -1,0 +1,45 @@
+.block3{
+    margin-top: 100px;
+    height: 300px;
+    width: 100%;
+    background: radial-gradient(50% 90%, #f7f7f7, #bdbdbd);
+    position: relative;
+}
+
+.footer{
+    position: absolute;
+    top: 20%;
+    display: flex;
+}
+
+.all-collection-inner{
+    display: flex;
+    justify-content: start;
+    margin: 15px 0;
+}
+
+.all-collection,
+.all-collection-text{
+    width: 50%;
+}
+
+.all-collection-inner a{
+    margin: 0 5px;
+    color: black;
+    transition: all 0.3s ease-out;
+}
+
+.all-collection-inner a:hover{
+    color: rgb(99, 77, 48);
+    transform: scale(1.05);
+
+}
+
+.all-collection h4{
+    white-space: nowrap;
+}
+
+.warning{
+    display: block;
+    margin-top: 20px;
+}
