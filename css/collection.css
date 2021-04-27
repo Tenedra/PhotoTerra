@@ -79,3 +79,42 @@
 .collection-item:hover img{
     transform: scale(1.05);
 }  
+
+
+/* new */
+
+
+.all-collection,
+.all-collection-text{
+    width: 50%;
+    color: #4e4e4e;
+}
+
+.all-collection-inner{
+    display: flex;
+    justify-content: start;
+    margin: 15px 0;
+}
+
+.all-collection-inner a{
+    margin: 0 5px;
+    color: black;
+    transition: all 0.3s ease-out;
+    white-space: nowrap;
+}
+
+.all-collection-inner a:hover{
+    color: rgb(99, 77, 48);
+    transform: scale(1.05);
+}
+
+.all-collection-text{
+    position: absolute;
+    top: 55%;
+    left: 25%;
+    font-size: 12px;
+}
+
+.all-collection h4{
+    white-space: nowrap;
+}

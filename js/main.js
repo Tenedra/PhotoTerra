@@ -7,7 +7,8 @@ $(function(){
         autoplaySpeed: 1000,
         speed: 2000,
         fade: true,
-        pauseOnHover: false
+        pauseOnHover: false,
+        arrows: false
  });
  });
 
@@ -18,6 +19,7 @@ $(function(){
         autoplay: true,
         autoplaySpeed: 1500,
         speed: 2000,
-        pauseOnHover: false
+        pauseOnHover: false,
+        arrows: false
  });
  });
