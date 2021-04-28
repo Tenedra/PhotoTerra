@@ -1,0 +1,254 @@
+/*--tabs--*/
+
+.tabs-nav{
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 0;
+    display: flex;
+    justify-content: start;
+    border-bottom: 4px solid #000;
+}
+
+.tabs-nav li{
+    list-style: none;
+    margin: 10px 5px;
+}
+
+.tab-active{
+    transform: scale(1.1);
+}
+.tabs-nav-link{
+    background-color: #f7f7f7;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    text-decoration: none;
+    color: #000;
+    font-size: 15px;
+    padding: 10px 20px;
+    box-shadow: 0 5px 5px -5px #333;
+    transition: all 0.3s ease;
+}
+
+.active{
+    font-size: 16px;
+    background-color: #000;
+    color: rgb(240, 219, 191);
+}
+
+/*-------------------------------------------section1-------------------------------------------*/
+
+/*--description--*/
+
+#tab-1{
+    width: 100%;
+    margin: 0 auto;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: space-around;
+}
+
+.day-info p{
+    font-family: 'Helvetica';
+    margin: 20px 0;
+    line-height: 1.4em;
+}
+
+.photo-tour{
+    width: 67%;
+    margin: 0 50px;
+    padding: 40px 0;
+}
+
+.day-info{
+    margin: 40px auto;
+}
+
+.day-info h2{
+    font-size: 25px;
+    object-fit: cover;
+}
+
+.day-info-pic{
+    display: flex;
+    justify-content: start;
+    margin: 0 5px;
+}
+
+.day-info img{
+    margin: 0 10px;
+    display: block;
+
+}
+
+/*--oter-tour--*/
+.other-tour{
+    margin-top: 70px;
+    padding-left: 30px;
+    width: 25%;
+    height: 400px;
+    border-left: 1px solid rgb(199, 199, 199);
+}
+
+.tour{
+    width: 100%;
+}
+
+.other-tour h2{
+    padding-top: 10px;
+}
+
+.tour-link{
+    margin: 20px 0;
+    padding: 5px;
+    max-width: 80%;
+    text-decoration: none;
+    color: #000;
+    vertical-align: top;
+    display: flex;
+    justify-content: start;
+    transition: all 0.3s ease;
+}
+
+.tour-link:hover{
+    transform: scale(1.1);
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.3) ;
+}
+
+.tour-link h4{
+    padding-left: 7px;
+    width: 100%;
+    border-left: none;
+}
+
+/*-------------------------------------------tab-2-------------------------------------------*/
+
+#tab-2{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.tabs-item-inner{
+    padding: 50px 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+table.details {
+    height: 100%;
+    width: 70%;
+    border-collapse: collapse;
+    border-top: 2px solid rgb(99, 77, 48);
+    border-bottom: 2px solid rgb(99, 77, 48);
+}
+
+tr.details-inner{
+    border-bottom: 1px solid rgba(99, 77, 48, 0.4);
+}
+tr.details-inner:last-child{
+    border: none;
+}
+
+td,th{
+    padding: 10px;
+}
+
+td{
+    line-height: 1.5em;
+    font-weight: 300;
+}
+
+th{
+    width: 30%;
+    vertical-align: top;
+}
+
+td i{
+    margin: 0 15px;
+}
+
+td span{
+    margin-left: 45px;
+}
+.green i{
+    color: rgb(0, 160, 0);
+}
+.red i{
+    color: rgb(160, 0, 0);
+}
+.blue i{
+    color: rgb(0, 0, 160);
+}
+
+/*-- form --*/
+
+.order{
+    height: 30%;
+    padding: 90px 30px;
+    background: radial-gradient( #f7f7f7, rgb(240, 219, 191));
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+    border-radius: 5px; 
+    position: relative;
+    text-align: center;
+}
+
+.order h2{
+    color: #000;
+    position: absolute;
+    top: 0;
+    margin-top: 40px;
+}
+.form-vv{
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+}
+
+.form-vv input{
+    border: none;
+    width: 230px;
+    height: 50px;
+    color: #fff;
+    background:none;
+    letter-spacing: 1px;
+    outline: none;
+    margin: 10px 0;
+    font-size: 15px;
+    border-bottom:1px solid #2c2c2c;
+}
+
+.form-vv input[type = "submit"]{
+    border-bottom: none;
+    font-size: 16px;
+    border-radius: 15px;
+    background: #2c2c2c;
+    color: #f7f7f7;
+    transition: all 0.3s ease;
+}
+
+.form-vv input[type = "submit"]:hover{
+    cursor: pointer;
+    transform: scale(0.9);
+    color: rgb(240, 219, 191);
+}
+
+/*-------------------------------------------tab-3-------------------------------------------*/
+#tab-3{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.map{
+    width: 600px;
+    margin: 0 auto;
+    padding: 40px 0px;
+}

@@ -1,7 +1,71 @@
+#tab-2{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    margin-top: 100px;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+table.details {
+    height: 100%;
+    width: 70%;
+    margin-top: 20px;
+    border-collapse: collapse;
+    border-top: 2px solid #000;
+    border-bottom: 2px solid #000;
+}
+
+tr.details-inner{
+    border-bottom: 1px solid #e4e4e4;
+}
+
+tr.details-inner:last-child{
+    border: none;
+}
+
+td,th{
+    padding: 10px;
+}
+
+td{
+    line-height: 1.5em;
+    font-weight: 300;
+}
+
+th{
+    width: 30%;
+    vertical-align: top;
+}
+
+td i{
+    margin: 0 15px;
+}
+
+td span{
+    margin-left: 45px;
+}
+.green i{
+    color: rgb(0, 160, 0);
+}
+.red i{
+    color: rgb(160, 0, 0);
+}
+.blue i{
+    color: rgb(0, 0, 160);
+}
+
+
 /*--description--*/
 
-.container{
-    margin: 100px auto;
+#tab-1{
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 100px;
     border-left: 1px solid black;
     border-right: 1px solid black;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
@@ -9,14 +73,14 @@
     justify-content: space-around;
 }
 
-p{
+.day-info p{
     font-family: 'Helvetica';
     margin: 20px 0;
     line-height: 1.4em;
 }
 
 .photo-tour{
-    width: 70%;
+    width: 67%;
     margin: 0 50px;
     padding: 40px 0;
 }
@@ -30,19 +94,19 @@ p{
     object-fit: cover;
 }
 
-.day-info-pic3{
+.day-info-pic{
     display: flex;
     justify-content: start;
+    margin: 0 5px;
 }
 
 .day-info img{
-    margin: 0 auto;
+    margin: 0 10px;
     display: block;
 
 }
 
 /*--oter-tour--*/
-
 .other-tour{
     margin-top: 70px;
     padding-left: 30px;
@@ -51,12 +115,12 @@ p{
     border-left: 1px solid rgb(199, 199, 199);
 }
 
-.other-tour h2{
-    padding-top: 10px;
-}
-
 .tour{
     width: 100%;
+}
+
+.other-tour h2{
+    padding-top: 10px;
 }
 
 .tour-link{
@@ -79,8 +143,5 @@ p{
 .tour-link h4{
     padding-left: 7px;
     width: 100%;
-
     border-left: none;
 }
-
-

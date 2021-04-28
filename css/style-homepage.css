@@ -254,6 +254,6 @@
 .dws-input input[type = "submit"]:hover{
     cursor: pointer;
     transform: scale(0.9);
-    color: rgb(99, 77, 48);
+    color: rgb(240, 219, 191);
 }
 
