@@ -16,3 +16,4 @@ $(function() {
 		$('#tabs .tabs-nav-link[href=' + $(this).data('id')+ ']').click();
 	})    
 });
+

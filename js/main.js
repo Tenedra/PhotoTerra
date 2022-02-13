@@ -9,10 +9,8 @@ $(function(){
         fade: true,
         pauseOnHover: false,
         arrows: false
- });
- });
+    });
 
- $(function(){ 
     $('.collection').slick({
         slidesToShow: 3,
         slidesToScroll: 1,
@@ -21,5 +19,27 @@ $(function(){
         speed: 2000,
         pauseOnHover: false,
         arrows: false
- });
- });
+    });
+
+    $('.slider-for').slick({
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        arrows: true,
+        fade: true,
+        asNavFor: '.slider-nav',
+
+    });
+
+    $('.slider-nav').slick({
+        slidesToShow: 7,
+        slidesToScroll: 1,
+        asNavFor: '.slider-for',
+        autoplay: true,
+        autoplaySpeed: 3000,
+        dots: false,
+        arrows: false,
+        centerMode: true,
+        focusOnSelect: true
+    });
+
+});

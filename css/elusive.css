@@ -1,0 +1,70 @@
+.elusive{
+    display: grid;
+    justify-items: stretch;
+    margin: 0 auto;
+    max-width: 100%;
+    margin-top: 100px;
+
+}
+
+
+.elusive-item{
+    margin: 10px 0;
+    padding: 15px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    position: relative;
+    transition: all 0.3s ease
+}
+
+.elusive-item img{
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+}
+
+.elusive-item:after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    opacity: 0;
+    transition: all 0.3s ease;
+}  
+
+ .elusive-item:hover:after{
+    opacity: 1;
+    transform: scale(1.05);
+    padding: 0;
+}  
+
+.elusive-item:hover{
+    padding: 0;
+}
+
+.elusive-text{
+    line-height: 3em;
+    color: #fff;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+    transition: all 0.3s ease;
+}
+
+.elusive-item:hover .elusive-text{
+    opacity: 1;
+    z-index: 1;
+}
+
+.elusive-item img{
+    transition: all 0.3s ease;
+}
+
+.elusive-item:hover img{
+    transform: scale(1.05);
+}  
